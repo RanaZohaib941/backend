@@ -3,7 +3,7 @@ This is a backend API built using ASP.NET Core Web API framework, connected to a
 with proper authorization and GDPR compliance.
 
 Requirements
-.NET Core SDK 6.0 or later
+.NET Core SDK 8.0 or later
 MongoDB 4.4 or later
 
 Getting Started
