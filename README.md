@@ -14,3 +14,4 @@ Running MongoDB
 
 Create a Database:
 Connect to MongoDB using mongo shell or a GUI tool like MongoDB Compass.
+Create 2 databases named  IdentityDb for user management and  database named ProjectDb for projects table
