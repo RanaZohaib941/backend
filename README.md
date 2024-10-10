@@ -15,3 +15,16 @@ Running MongoDB
 Create a Database:
 Connect to MongoDB using mongo shell or a GUI tool like MongoDB Compass.
 Create 2 databases named  IdentityDb for user management and  database named ProjectDb for projects table
+Update the connection strings in appsettings.json accordingly as shown below
+{
+  "MongoDbData": {
+    "ConnectionString": "mongodb://localhost:27017",
+    "IdentityDb": "IdentityDb",
+    "ProjectDb": "ProjectDb"
+  },
+
+  "ConnectionString": {
+    "DbConnection": "mongodb://localhost:27017"
+  },
+
+
